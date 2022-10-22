@@ -253,11 +253,11 @@ html, body {
 }
 .v3_55 {
   width: 18px;
-  height: 0.28%;
+  height: 26px;
   background: url("images/download.svg");
   opacity: 1;
   position: absolute;
-  top: 98px;
+  top: 100px;
   left: 1795px;
 }
 .v6_66 {
@@ -348,6 +348,16 @@ html, body {
   opacity: 1;
   text-align: left;
 }
+.HealthCareTitle {
+  width: 1271px;
+  height: 300px;
+  font-weight: bold;
+  font-size: 80px;
+  top: 2688px;
+  margin-left: 357px;
+  font-family: Quicksand;
+  position: absolute;
+}
 .v6_71 {
   width: 100%;
   color: rgba(154, 154, 154, 1);
@@ -359,6 +369,16 @@ html, body {
   font-size: 24px;
   opacity: 1;
   text-align: center;
+}
+.SelfCareTitle{
+  width: 508px;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: Quicksand;
+  top: 5151px;
+  left: 1035px;
+  position: absolute;
+  opacity: 1;
 }
 .v6_85 {
   width: 653px;
@@ -383,6 +403,25 @@ html, body {
   font-size: 24px;
   opacity: 1;
   text-align: left;
+}
+.Negosh {
+  width: 730px;
+  height: 900px;
+  background: url("Images/Coffee.svg");
+  position: absolute;
+  top: 4100px;
+  right: 100px;
+  opacity: 1;
+}
+.ConsultTitle {
+  width: 508px;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: Quicksand;
+  top: 4150px;
+  left: 271px;
+  position: absolute;
+  opacity: 1;
 }
 .v6_76 {
   width: 14px;
@@ -416,7 +455,7 @@ html, body {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: 35px 40px 50px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
 .v6_87 {
@@ -425,16 +464,16 @@ html, body {
   background: rgba(178, 218, 242, 1);
   opacity: 1;
   position: absolute;
-  top: 5693px;
+  top: 5715px;
   left: 1035px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: 35px 40px 50px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
-.SelfCare {
+.DetailsBtn {
   width: 185px;
   color: rgba(255, 255, 255, 1);
   height: 54px;
@@ -442,7 +481,7 @@ html, body {
   left: 110px;
   top: 25px;
   font-family: Quicksand;
-  font-weight: Bold;
+  font-weight: bold;
   font-size: 40px;
   opacity: 1;
   text-align: center;
@@ -459,7 +498,7 @@ html, body {
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  box-shadow: 0px 0px 0px
+  box-shadow: 0px 20px 58px
     rgba(
       0.6980392336845398,
       0.8549019694328308,
@@ -474,13 +513,13 @@ html, body {
   background: rgba(235, 180, 201, 1);
   opacity: 1;
   position: absolute;
-  top: 4692px;
-  left: 271px;
+  top: 4725px;
+  left: 250px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: 35px 40px 50px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
 .v6_79 {
@@ -491,6 +530,16 @@ html, body {
   position: absolute;
   top: 5091px;
   left: 45px;
+}
+.CommunityTitle {
+  width: 508px;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: Quicksand;
+  top: 3175px;
+  left: 1035px;
+  position: absolute;
+  opacity: 1;
 }
 .v6_75 {
   width: 653px;
@@ -503,6 +552,15 @@ html, body {
   font-size: 24px;
   opacity: 1;
   text-align: left;
+}
+.CommunityImg {
+  width: 900px;
+  height: 800px;
+  left: 30px;
+  top: 3119px;
+  position: absolute;
+  opacity: 1;
+  background: url("Images/hands.svg")
 }
 /* .v6_93 {
   width: 100%;
@@ -551,6 +609,16 @@ html, body {
   left: 140px;
   top: 201px;
   position: absolute
+}
+.TextParaWhyUs{
+  font-size: 30;
+  color: white;
+  font-family: Quicksand;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 339px;
 }
 .WhyTime{
   background: url("Images/ablazeclock.svg");
@@ -647,7 +715,7 @@ html, body {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: -40px 40px 30px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
 .v6_115 {
@@ -663,7 +731,7 @@ html, body {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: -40px 40px 30px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
 .v6_114 {
@@ -679,7 +747,7 @@ html, body {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: -40px 40px 30px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
 .v6_116 {
@@ -695,7 +763,7 @@ html, body {
   border-top-right-radius: 100px;
   border-bottom-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-shadow: -40px 40px 30px rgba(0, 0, 0, 0.10000000149011612);
   overflow: hidden;
 }
 .v6_113 {
@@ -760,7 +828,7 @@ html, body {
   width: 535px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 8480px;
+  top: 8490px;
   left: 285px;
   font-family: Quicksand;
   font-weight: Bold;
@@ -880,7 +948,7 @@ html, body {
   width: 529px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 74.55%;
+  top: 8300px;
   left: 285px;
   font-family: Quicksand;
   font-weight: Bold;

@@ -9,28 +9,62 @@
 </head>
 <body>
 
-    <script>
-        $(document).ready(function(){
-            $('#2').hide()
-            function show1(){
-                $('#2').fadeOut
-                $('#1').fadeIn
+    <script type="text/javascript">
+        function myFunction1() 
+        {
+            var x = document.getElementById("myDIV1");
+            if (x.style.display === "none") 
+            {
+                x.style.display = "block";
+            } 
+            else 
+            {
+                x.style.display = "none";
             }
-            function show2(){
-                document.getElementById('1').innerHTML() = "<h1>hi</h1>"
+            var y = document.getElementById("myDIV2");
+            if (y.style.display === "block") 
+            {
+                y.style.display = "none";
+            } 
+            else 
+            {
+                x.style.display = "block";
             }
-        })
-    </script>
 
-    <div id="1">
-        <h1>My content!</h1>
-    </div>
+        }
+        function myFunction2() 
+               {
+            var x = document.getElementById("myDIV2");
+            if (x.style.display === "none") 
+            {
+                x.style.display = "block";
+            } 
+            else 
+            {
+                x.style.display = "none";
+            }
+            var y = document.getElementById("myDIV1");
+            if (y.style.display === "block") 
+            {
+                y.style.display = "none";
+            } 
+            else 
+            {
+                y.style.display = "block";
+            }
 
-    <div id="2">
-        <h1>My Other Content</h1>
-    </div>
+        }
+</script>
 
-    <input type="button" id="but1" value="Show 1" style="margin-top:200px" onclick="show1()" />
-    <input type="button" id="but2" value="Show 2" style="margin-top:200px" onclick="show2()" />
+    <button onclick="myFunction1()">New Show 1</button>
+    <button onclick="myFunction2()">New Show 2</button>
+
+<div id="myDIV1">
+  This is my DIV 1 element.
+</div>
+<div id="myDIV2">
+  This is my DIV 2 element.
+</div>
+
 </body>
 </html>

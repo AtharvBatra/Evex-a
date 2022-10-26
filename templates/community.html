@@ -9,25 +9,41 @@
     <link href="../static/communitystyles.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body onload="showForums()">
 
     <!--Script to swap between different contents-->
-    <script>
+    <script type="text/javascript">
+      function showForums(){
+        var forum = document.getElementById("forums");
+        if (forum.style.display == "none"){
+          forum.style.display = "block";
+        }
+        else {
+          forum.style.display = "none";
+        }
+        var webinar = document.getElementById("webinars");
+        if(webinar.style.display == "block"){
+          webinar.style.display = "none"
+        }
+        else {
+          webinar.style.display = "block"
+        }
+      }
     </script>
     <!--Script end-->
 
     <div class="v6_135">
       <div class="v6_137"></div>
       <div class="v6_138"></div>
-      <a href="/consult"><span class="v6_139">Consult</span></a>
-      <a href="self-care"><span class="v6_141">Self Care</span></a>
+      <a href="consult.html"><span class="v6_139">Consult</span></a>
+      <a href="selfcare.html"><span class="v6_141">Self Care</span></a>
       <span class="v6_142">Contact us </span>
-      <a href="/home"><span class="v6_143">Home</span></a>
+      <a href="landing.html"><span class="v6_143">Home</span></a>
       <div class="v6_155"></div>
       <div class="v16_228"></div>
       <div class="v16_230"></div>
       <div class="v16_232"></div>
-      <a href="community"><div>
+      <a href="community.html"><div>
         <span class="v6_140">Community</span>
         <div class="v6_148"></div>
         <div class="v6_147"></div>
@@ -40,56 +56,61 @@
       <!--Forums-->
       <div class="forumcontent" id="forums">
         <!--buttons-->
-        <div class="v49_15">
-            <button id="forumbutton" class="v49_20">Forums</button>
-        </div>
-        <button class="v49_16" id="webutton">
+        <button id="forumbutton" onclick="showForums()" class="v49_15 btnhover" style="border-width:0rem">
+            <span class="v49_20" style="top:25px;left:95px">Forums</span>
+        </button>
+        <button class="v49_16 btnhover" id="webutton" onclick="showForums()" style="border-width:0rem">
             <span class="v49_23">Webinars</span>
         </button>
         <!--buttons end-->
 
         <!--Main content-->
 
-        <!--Block 1-->
         <div class="v49_53">
             <div class="v49_68"></div>
             <div class="v49_69"></div>
             <span class="v49_72">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
         </div>
-        <!--Block 1 End-->
-
-        <!--Block 2-->
         <div class="v49_73">
           <div class="v49_74"></div>
           <div class="v49_75"></div>
           <span class="v49_80">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
         </div>
-        <!--Block 2 End-->
 
-        <!--Block 3-->
         <div class="v49_77">
           <div class="v49_78"></div>
           <div class="v49_79"></div>
           <span class="v49_76">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
         </div>
-        <!--Block 3 End-->
 
-        <!--Block 4-->
         <div class="v49_81">
           <div class="v49_82"></div>
           <div class="v49_83"></div>
           <span class="v49_84">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
         </div>
-        <!--Block 4 End-->
         <!--Main content end-->
       </div>
       <!--Forums end-->
 
       <!--Webinars-->
       <div class="bodycontent" id="webinars">
-        <button class="v49_15" id="forumbutton2">
-          <p class="v49_20">Forums</p>
+        <button id="forumbutton" onclick="showForums()" class="v49_15 btnhover" style="border-width:0rem;background: rgba(255,255,255,1);">
+            <span class="v49_20" style="top:25px;left:95px;color:black">Forums</span>
         </button>
+        <button class="v49_16 btnhover" id="webutton" onclick="showForums()" style="border-width:0rem;background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));">
+            <span class="v49_23"; style="color:white">Webinars</span>
+        </button>
+
+        <div class="webinarblock">
+          <div class="webinarinblock"></div>
+          <span class="webtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        </div>
+
+        <div class="webinarblock" style="top: 3000px">
+          <div class="webinarinblock"></div>
+          <span class="webtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+        </div>
+
       </div>
 
       <div class="v49_58"></div>

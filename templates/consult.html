@@ -4,10 +4,25 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
         <link href="../static/consultstyles.css" rel="stylesheet">
     </head>
-    <body>
+    <body onload="showAppointments()">
 
         <script type="text/javascript">
-            
+           function showAppointments(){
+            var app = document.getElementById("Appointments");
+            if(app.style.display == "none"){
+                app.style.display = "block"
+            }
+            else {
+                app.style.display = "none";
+            }
+            var txt = document.getElementById("TextChat")
+            if(txt.style.display == "block"){
+                txt.style.display = "none"
+            }
+            else {
+                txt.style.display = "block"
+            }
+           } 
         </script>
 
         <div class="v6_206">
@@ -26,25 +41,48 @@
             <div class="v16_229"></div>
             <div id="v49_25"></div>
             <span class="v49_26">Consult</span>
-            <button class="v49_104 btnhover" style="border-width:0px" onclick="window.scrollTo(top)">
-                <span class="v49_106">book now</span>
-            </button>
-            <span class="v73_14">Schedule</span>
-            <span class="v73_10">Get an appointment in 20 minutes</span>
-            <span class="v73_15">Schedule an appointment as per your liking</span>
-            <div id="maincontent" class="bodycontent">
+            <div id="Appointments" class="bodycontent">
                 <!--Butttons-->
-                <button class="v73_16 btnhover" style="border-width: 0rem">
+                <button class="v73_16 btnhover" style="border-width: 0rem" onclick="showAppointments()">
                     <span class="v73_17">Appointments</span>
                 </button>
 
-                <button class="v49_105 btnhover" style="border-width: 0rem">
+                <button class="v49_105 btnhover" style="border-width: 0rem" onclick="showAppointments()">
                     <span class="v49_107">Text chat</span>
                 </button>
                 <!--End-->
-
                 <!--Body-->
+                <span class="v73_10">Get an appointment in 20 minutes</span>
+                <button class="v49_104 btnhover" style="border-width:0px" onclick="window.scrollTo(top)">
+                    <span class="v49_106">book now</span>
+                </button>
+                <span class="v73_15">Schedule an appointment as per your liking</span>
+                <button class="schedulebutton btnhover" style="border-width: 0rem" onclick="window.scrollTo(top)">
+                    <span class="v73_14">Schedule</span>
+                </button>
+                <!--End-->
+            </div>
+            <div id="TextChat" class="bodycontent">
+                <!--Buttons-->
+                <button class="v73_16 btnhover" style="border-width: 0rem; background: white" onclick="showAppointments()">
+                    <span class="v73_17" style="color: black">Appointments</span>
+                </button>
+                <button class="v49_105 btnhover" style="border-width: 0rem; background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));" onclick="showAppointments()">
+                    <span class="v49_107" style="color: white">Text chat</span>
+                </button>
+                <!--End-->
                 
+                <!--Body-->
+                <span class="chatitle">Get into a realtime chat with psychologists</span>
+                <button class="startbutton btnhover" style="border-width: 0rem" onclick="window.scrollTo(top)">
+                    <span class="startext">Start</span>
+                </button>
+                <div class="mainbox">
+                    <div class="message1"></div>
+                    <div class="message2"></div>
+                    <div class="message3"></div>
+                    <div class="inputbox"></div>
+                </div>
                 <!--End-->
             </div>
         </div>

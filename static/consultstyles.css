@@ -201,13 +201,28 @@
     background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));
     opacity: 1;
     position: absolute;
-    top: 1106px;
+    top: 1256px;
     left: 134px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10000000149011612);
+    overflow: hidden;
+  }
+  .schedulebutton {
+    width: 258px;
+    height: 82px;
+    background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));
+    opacity: 1;
+    top: 1750px;
+    left: 134px;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 5px 5px 0.6rem rgba(0, 0, 0, 0.10000000149011612);
     overflow: hidden;
   }
   .v73_16 {
@@ -268,11 +283,11 @@
     width: 105px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 1596px;
-    left: 210px;
+    top: 30px;
+    left: 90px;
     font-family: Quicksand;
     font-weight: Bold;
-    font-size: 24px;
+    font-size: 26px;
     opacity: 1;
     text-align: left;
   }
@@ -292,8 +307,8 @@
     width: 666px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 914px;
-    left: 134px;
+    top: 1050px;
+    left: 150px;
     font-family: Quicksand;
     font-weight: Bold;
     font-size: 60px;
@@ -304,11 +319,115 @@
     width: 744px;
     color: rgba(0,0,0,1);
     position: absolute;
-    top: 1378px;
+    top: 1528px;
     left: 134px;
     font-family: Quicksand;
     font-weight: Bold;
     font-size: 60px;
     opacity: 1;
     text-align: left;
+  }
+  .chatitle {
+    width: 709px;
+    font-size: 62px;
+    top: 900px;
+    left: 650px;
+    text-align: center;
+    position: absolute;
+    font-family: Quicksand;
+    font-weight: bold;
+  }
+  .startbutton {
+    left: 870px;
+    top: 1106px;
+    width: 256px;
+    height: 82px;
+    position: absolute;
+    background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    opacity: 1;
+    box-shadow: 0px 20px 0.6rem rgba(0, 0, 0, 0.10000000149011612)
+  }
+  .startext {
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 115px;
+    font-family: Quicksand;
+    font-weight: bold;
+    font-size: 26px;
+    opacity: 1;
+    text-align: left;
+  }
+  .mainbox {
+    left: 275px;
+    top: 1200px;
+    width: 1574px;
+    height: 628px;
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    opacity: 1;
+    box-shadow: 0px 20px 0.6rem 5px rgba(0, 0, 0, 0.10000000149011612);
+  }
+  .inputbox {
+    width: 1436px;
+    height: 56px;
+    bottom: 25px;
+    left: 145px;
+    position: absolute;
+    background: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    opacity: 1;
+    box-shadow: 0px 20px 1rem rgba(0, 0, 0, 0.10000000149011612); 
+  }
+  .message1 {
+    width: 679px;
+    height: 82px;
+    left: 1000px;
+    top: 100px;
+    position: absolute;
+    background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    opacity: 1;
+    box-shadow: 0px 20px 1rem rgba(0, 0, 0, 0.10000000149011612);
+  }
+  .message2 {
+    left: 69px;
+    top: 300px;
+    width: 482px;
+    height: 82px;
+    position: absolute;
+    background: #F5F3F3;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;  
+    opacity: 1;
+    box-shadow: 0px 20px 1rem rgba(0, 0, 0, 0.10000000149011612);
+  }
+  .message3 {
+    left: 1000px;
+    top: 420px;
+    width: 679px;
+    height: 172px;
+    position: absolute;
+    background: linear-gradient(rgba(111,151,235,1), rgba(36,90,227,1));
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    opacity: 1;
+    box-shadow: 0px 20px 1rem rgba(0, 0, 0, 0.10000000149011612);
   }

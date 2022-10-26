@@ -3,6 +3,14 @@
     padding: 0;
     margin: 0;
     zoom: 90%;
+    scroll-behavior: smooth;
+  }
+  .btnhover {
+    transition: all 1s ease;
+    transform: scale(1)
+  }
+  .btnhover:hover {
+    transform: scale(1.15) perspective(1px);
   }
   body {
     font-size: 14px;
@@ -45,38 +53,38 @@
     overflow: hidden;
   }
   .v49_33 {
-    width: 85px;
+    width: 86px;
     color: rgba(165,174,185,1);
     position: absolute;
-    top: 92px;
-    left: 990px;
+    top: 100px;
+    left: 1100px;
     font-family: Quicksand;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 26px;
     opacity: 1;
     text-align: left;
   }
   .v49_34 {
-    width: 131px;
+    width: 133px;
     color: rgba(165,174,185,1);
     position: absolute;
-    top: 92px;
-    left: 809px;
+    top: 100px;
+    left: 900px;
     font-family: Quicksand;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 26px;
     opacity: 1;
     text-align: left;
   }
   .v49_35 {
-    width: 104px;
+    width: 125px;
     color: rgba(111,151,235,1);
     position: absolute;
-    top: 92px;
-    left: 1125px;
+    top: 100px;
+    left: 1250px;
     font-family: Quicksand;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 26px;
     opacity: 1;
     text-align: left;
   }
@@ -93,14 +101,14 @@
     text-align: left;
   }
   .v49_37 {
-    width: 68px;
+    width: 104px;
     color: rgba(165,175,186,1);
     position: absolute;
-    top: 92px;
-    left: 691px;
+    top: 100px;
+    left: 771px;
     font-family: Quicksand;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 26px;
     opacity: 1;
     text-align: left;
   }
@@ -110,8 +118,8 @@
     background: rgba(111,151,235,1);
     opacity: 1;
     position: absolute;
-    top: 123px;
-    left: 1160px;
+    top: 130px;
+    left: 1310px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -119,13 +127,13 @@
     overflow: hidden;
   }
   .v49_39 {
-    width: 6px;
+    width: 10px;
     height: 3px;
     background: rgba(111,151,235,1);
     opacity: 1;
     position: absolute;
-    top: 123px;
-    left: 1149px;
+    top: 130px;
+    left: 1290px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -458,8 +466,8 @@
     width: 79px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 2948px;
-    left: 1534px;
+    top: 30px;
+    left: 100px;
     font-family: Quicksand;
     font-weight: Bold;
     font-size: 24px;

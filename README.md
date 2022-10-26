@@ -4,6 +4,16 @@
 
 You need to have pip installed
 
+### to install pip
+
+```bat
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+```
+
+```bat
+python get-pip.py
+```
+
 ```bat
 pip3 install -r requirements.txt
 ```

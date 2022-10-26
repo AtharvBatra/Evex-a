@@ -1,10 +1,8 @@
 # Evexia
 
-## How to use requirements.txt
-
 You need to have pip installed
 
-### to install pip
+## Install pip
 
 ```bat
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -13,6 +11,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```bat
 python get-pip.py
 ```
+## Use requirements.txt
 
 ```bat
 pip3 install -r requirements.txt

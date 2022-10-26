@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        $(document).ready(function(){
+            $('#2').hide()
+            function show1(){
+                $('#2').fadeOut
+                $('#1').fadeIn
+            }
+            function show2(){
+                document.getElementById('1').innerHTML() = "<h1>hi</h1>"
+            }
+        })
+    </script>
+
+    <div id="1">
+        <h1>My content!</h1>
+    </div>
+
+    <div id="2">
+        <h1>My Other Content</h1>
+    </div>
+
+    <input type="button" id="but1" value="Show 1" style="margin-top:200px" onclick="show1()" />
+    <input type="button" id="but2" value="Show 2" style="margin-top:200px" onclick="show2()" />
+</body>
+</html>
